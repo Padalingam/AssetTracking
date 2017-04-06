@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5159796B1E96073200EEB796 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515979691E96073200EEB796 /* Main.storyboard */; };
-		5159796D1E96073200EEB796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5159796C1E96073200EEB796 /* Assets.xcassets */; };
 		515979701E96073200EEB796 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5159796E1E96073200EEB796 /* LaunchScreen.storyboard */; };
 		5159797A1E960CF700EEB796 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515979781E960CF700EEB796 /* AppDelegate.swift */; };
 		515979991E96120100EEB796 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515979981E96120100EEB796 /* LoginInteractor.swift */; };
@@ -16,12 +15,15 @@
 		515979A11E96124200EEB796 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515979A01E96124200EEB796 /* LoginViewController.swift */; };
 		515979A31E96125000EEB796 /* LoginProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515979A21E96125000EEB796 /* LoginProtocols.swift */; };
 		515979A51E96126000EEB796 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515979A41E96126000EEB796 /* LoginPresenter.swift */; };
+		515979A81E961CD000EEB796 /* StoryBoardIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515979A71E961CD000EEB796 /* StoryBoardIdentifier.swift */; };
+		515979AA1E96268600EEB796 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515979A91E96268600EEB796 /* LoginView.swift */; };
+		515979AC1E96336A00EEB796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515979AB1E96336A00EEB796 /* Assets.xcassets */; };
+		515979AF1E9649B900EEB796 /* Yellowtail-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 515979AE1E9649B900EEB796 /* Yellowtail-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		515979621E96073200EEB796 /* AssetTracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssetTracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5159796A1E96073200EEB796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5159796C1E96073200EEB796 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5159796F1E96073200EEB796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		515979711E96073200EEB796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		515979781E960CF700EEB796 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Classes/AppDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +32,10 @@
 		515979A01E96124200EEB796 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Classes/Modules/Login/View/LoginViewController.swift; sourceTree = "<group>"; };
 		515979A21E96125000EEB796 /* LoginProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginProtocols.swift; path = Classes/Modules/Login/Protocols/LoginProtocols.swift; sourceTree = "<group>"; };
 		515979A41E96126000EEB796 /* LoginPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginPresenter.swift; path = Classes/Modules/Login/Presenter/LoginPresenter.swift; sourceTree = "<group>"; };
+		515979A71E961CD000EEB796 /* StoryBoardIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StoryBoardIdentifier.swift; path = Classes/Common/StoryBoardIdentifier.swift; sourceTree = "<group>"; };
+		515979A91E96268600EEB796 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = Classes/Modules/Login/View/LoginView.swift; sourceTree = "<group>"; };
+		515979AB1E96336A00EEB796 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		515979AE1E9649B900EEB796 /* Yellowtail-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Yellowtail-Regular.ttf"; path = "Classes/Common/CustomFonts/Yellowtail-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +70,7 @@
 			children = (
 				515979771E960CB700EEB796 /* Classes */,
 				515979691E96073200EEB796 /* Main.storyboard */,
-				5159796C1E96073200EEB796 /* Assets.xcassets */,
+				515979AB1E96336A00EEB796 /* Assets.xcassets */,
 				5159796E1E96073200EEB796 /* LaunchScreen.storyboard */,
 				515979711E96073200EEB796 /* Info.plist */,
 			);
@@ -129,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				515979A01E96124200EEB796 /* LoginViewController.swift */,
+				515979A91E96268600EEB796 /* LoginView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -152,8 +159,18 @@
 		515979A61E96130E00EEB796 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				515979AD1E96497800EEB796 /* CustomFonts */,
+				515979A71E961CD000EEB796 /* StoryBoardIdentifier.swift */,
 			);
 			name = Common;
+			sourceTree = "<group>";
+		};
+		515979AD1E96497800EEB796 /* CustomFonts */ = {
+			isa = PBXGroup;
+			children = (
+				515979AE1E9649B900EEB796 /* Yellowtail-Regular.ttf */,
+			);
+			name = CustomFonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,8 +235,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				515979701E96073200EEB796 /* LaunchScreen.storyboard in Resources */,
-				5159796D1E96073200EEB796 /* Assets.xcassets in Resources */,
+				515979AC1E96336A00EEB796 /* Assets.xcassets in Resources */,
 				5159796B1E96073200EEB796 /* Main.storyboard in Resources */,
+				515979AF1E9649B900EEB796 /* Yellowtail-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +254,8 @@
 				515979991E96120100EEB796 /* LoginInteractor.swift in Sources */,
 				5159797A1E960CF700EEB796 /* AppDelegate.swift in Sources */,
 				5159799F1E96123800EEB796 /* LoginRouter.swift in Sources */,
+				515979AA1E96268600EEB796 /* LoginView.swift in Sources */,
+				515979A81E961CD000EEB796 /* StoryBoardIdentifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +381,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = P72293BTY9;
 				INFOPLIST_FILE = AssetTracking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nalashaa.AssetTracking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -376,6 +397,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = P72293BTY9;
 				INFOPLIST_FILE = AssetTracking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nalashaa.AssetTracking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -402,6 +424,7 @@
 				515979761E96073200EEB796 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
