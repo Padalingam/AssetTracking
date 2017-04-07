@@ -21,4 +21,11 @@ class LoginRouter: LoginWireframeProtocol {
     static var mainStoryboard: UIStoryboard {
         return UIStoryboard(name: "Main", bundle: Bundle.main)
     }
+
+    func showHomeScreen(viewController: LoginViewProtocol) {
+        let homeViewController = HomeRouter.createHomeModule()
+        if let loginController = viewController as? LoginViewController {
+            loginController.present(homeViewController, animated: true, completion: nil)
+        }
+    }
 }

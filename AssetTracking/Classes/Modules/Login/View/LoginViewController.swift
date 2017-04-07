@@ -23,24 +23,29 @@ class LoginViewController: UIViewController, LoginViewProtocol {
     }
     
     @IBAction func loginAction(_ sender: LoginButton) {
-        do {
-        _ = try presenter?.loginValidation(userName: userName.text!, password: password.text!)
-        } catch let error {
-            guard let loginError = error as? LoginError else {
-                return
-            }
-            switch loginError {
-            case .failure(let message):
-                let actionSheetController: UIAlertController = UIAlertController(title: "Login Error", message: message, preferredStyle: .alert)
-                let cancelAction: UIAlertAction = UIAlertAction(title: "Cancel", style: .cancel) { action -> Void in
-                    //Just dismiss the action
-                }
-                actionSheetController.addAction(cancelAction)
-                self.present(actionSheetController, animated: true, completion: nil)
-            default:
-                print("No error")
-            }
-        }
+         presenter?.showHomeScreen()
+//        do {
+//        _ = try presenter?.loginValidation(userName: userName.text!, password: password.text!)
+//            presenter?.showHomeScreen()
+//        } catch let error {
+//            guard let loginError = error as? LoginError else {
+//                return
+//            }
+//            switch loginError {
+//            case .failure(let message):
+//                let actionSheetController: UIAlertController = UIAlertController(title: "Login Error", message: message, preferredStyle: .alert)
+//                let cancelAction: UIAlertAction = UIAlertAction(title: "Cancel", style: .cancel) { action -> Void in
+//                    //Just dismiss the action
+//                }
+//                actionSheetController.addAction(cancelAction)
+//                self.present(actionSheetController, animated: true, completion: nil)
+//            default:
+//                print("No error")
+//            }
+//        }
+    }
+
+    @IBAction func unwindSegue(_ sender: UIStoryboardSegue) {
         
     }
 }

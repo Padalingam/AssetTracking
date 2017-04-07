@@ -19,6 +19,16 @@
 		515979AA1E96268600EEB796 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515979A91E96268600EEB796 /* LoginView.swift */; };
 		515979AC1E96336A00EEB796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515979AB1E96336A00EEB796 /* Assets.xcassets */; };
 		515979AF1E9649B900EEB796 /* Yellowtail-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 515979AE1E9649B900EEB796 /* Yellowtail-Regular.ttf */; };
+		515979C41E976C7B00EEB796 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515979C31E976C7B00EEB796 /* HomeInteractor.swift */; };
+		515979C61E976C8600EEB796 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515979C51E976C8600EEB796 /* HomePresenter.swift */; };
+		515979C81E976C9200EEB796 /* HomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515979C71E976C9200EEB796 /* HomeProtocols.swift */; };
+		515979CA1E976C9D00EEB796 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515979C91E976C9D00EEB796 /* HomeViewController.swift */; };
+		515979CC1E976CA900EEB796 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515979CB1E976CA900EEB796 /* HomeRouter.swift */; };
+		515979E11E979CAD00EEB796 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515979E01E979CAD00EEB796 /* ScannerViewController.swift */; };
+		515979E31E979CC500EEB796 /* ScannerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515979E21E979CC500EEB796 /* ScannerPresenter.swift */; };
+		515979E51E979CD600EEB796 /* ScannerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515979E41E979CD600EEB796 /* ScannerInteractor.swift */; };
+		515979E71E979CE700EEB796 /* ScannerProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515979E61E979CE700EEB796 /* ScannerProtocols.swift */; };
+		515979E91E979CF400EEB796 /* ScannerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515979E81E979CF400EEB796 /* ScannerRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +46,16 @@
 		515979A91E96268600EEB796 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = Classes/Modules/Login/View/LoginView.swift; sourceTree = "<group>"; };
 		515979AB1E96336A00EEB796 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		515979AE1E9649B900EEB796 /* Yellowtail-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Yellowtail-Regular.ttf"; path = "Classes/Common/CustomFonts/Yellowtail-Regular.ttf"; sourceTree = "<group>"; };
+		515979C31E976C7B00EEB796 /* HomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeInteractor.swift; path = Classes/Modules/Home/Interactor/HomeInteractor.swift; sourceTree = "<group>"; };
+		515979C51E976C8600EEB796 /* HomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomePresenter.swift; path = Classes/Modules/Home/Presenter/HomePresenter.swift; sourceTree = "<group>"; };
+		515979C71E976C9200EEB796 /* HomeProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeProtocols.swift; path = Classes/Modules/Home/Protocols/HomeProtocols.swift; sourceTree = "<group>"; };
+		515979C91E976C9D00EEB796 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = Classes/Modules/Home/View/HomeViewController.swift; sourceTree = "<group>"; };
+		515979CB1E976CA900EEB796 /* HomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeRouter.swift; path = Classes/Modules/Home/WireFrame/HomeRouter.swift; sourceTree = "<group>"; };
+		515979E01E979CAD00EEB796 /* ScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScannerViewController.swift; path = Classes/Modules/Scanner/View/ScannerViewController.swift; sourceTree = "<group>"; };
+		515979E21E979CC500EEB796 /* ScannerPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScannerPresenter.swift; path = Classes/Modules/Scanner/Presenter/ScannerPresenter.swift; sourceTree = "<group>"; };
+		515979E41E979CD600EEB796 /* ScannerInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScannerInteractor.swift; path = Classes/Modules/Scanner/Interactor/ScannerInteractor.swift; sourceTree = "<group>"; };
+		515979E61E979CE700EEB796 /* ScannerProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScannerProtocols.swift; path = Classes/Modules/Scanner/Protocols/ScannerProtocols.swift; sourceTree = "<group>"; };
+		515979E81E979CF400EEB796 /* ScannerRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScannerRouter.swift; path = Classes/Modules/Scanner/WireFrame/ScannerRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +123,8 @@
 		5159797D1E960EB700EEB796 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				515979CD1E9788F700EEB796 /* Scanner */,
+				515979B01E976B7200EEB796 /* Home */,
 				5159797C1E960DA000EEB796 /* Login */,
 			);
 			name = Modules;
@@ -171,6 +193,126 @@
 				515979AE1E9649B900EEB796 /* Yellowtail-Regular.ttf */,
 			);
 			name = CustomFonts;
+			sourceTree = "<group>";
+		};
+		515979B01E976B7200EEB796 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				515979B61E976BC200EEB796 /* WireFrame */,
+				515979B51E976BB800EEB796 /* Protocols */,
+				515979B41E976BB000EEB796 /* View */,
+				515979B31E976B9F00EEB796 /* Presenter */,
+				515979B21E976B8D00EEB796 /* Interactor */,
+				515979B11E976B7C00EEB796 /* DataManager */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		515979B11E976B7C00EEB796 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DataManager;
+			sourceTree = "<group>";
+		};
+		515979B21E976B8D00EEB796 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				515979C31E976C7B00EEB796 /* HomeInteractor.swift */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		515979B31E976B9F00EEB796 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				515979C51E976C8600EEB796 /* HomePresenter.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		515979B41E976BB000EEB796 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				515979C91E976C9D00EEB796 /* HomeViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		515979B51E976BB800EEB796 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				515979C71E976C9200EEB796 /* HomeProtocols.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		515979B61E976BC200EEB796 /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				515979CB1E976CA900EEB796 /* HomeRouter.swift */,
+			);
+			name = WireFrame;
+			sourceTree = "<group>";
+		};
+		515979CD1E9788F700EEB796 /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				515979D31E97899400EEB796 /* WireFrame */,
+				515979D21E97898A00EEB796 /* Protocols */,
+				515979D11E97897F00EEB796 /* View */,
+				515979D01E97897400EEB796 /* Presenter */,
+				515979CF1E97896A00EEB796 /* Interactor */,
+				515979CE1E97896100EEB796 /* DataManager */,
+			);
+			name = Scanner;
+			sourceTree = "<group>";
+		};
+		515979CE1E97896100EEB796 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DataManager;
+			sourceTree = "<group>";
+		};
+		515979CF1E97896A00EEB796 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				515979E41E979CD600EEB796 /* ScannerInteractor.swift */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		515979D01E97897400EEB796 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				515979E21E979CC500EEB796 /* ScannerPresenter.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		515979D11E97897F00EEB796 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				515979E01E979CAD00EEB796 /* ScannerViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		515979D21E97898A00EEB796 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				515979E61E979CE700EEB796 /* ScannerProtocols.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		515979D31E97899400EEB796 /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				515979E81E979CF400EEB796 /* ScannerRouter.swift */,
+			);
+			name = WireFrame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,14 +390,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				515979E71E979CE700EEB796 /* ScannerProtocols.swift in Sources */,
 				515979A51E96126000EEB796 /* LoginPresenter.swift in Sources */,
 				515979A11E96124200EEB796 /* LoginViewController.swift in Sources */,
+				515979E91E979CF400EEB796 /* ScannerRouter.swift in Sources */,
 				515979A31E96125000EEB796 /* LoginProtocols.swift in Sources */,
+				515979C61E976C8600EEB796 /* HomePresenter.swift in Sources */,
+				515979C81E976C9200EEB796 /* HomeProtocols.swift in Sources */,
 				515979991E96120100EEB796 /* LoginInteractor.swift in Sources */,
+				515979CC1E976CA900EEB796 /* HomeRouter.swift in Sources */,
+				515979E51E979CD600EEB796 /* ScannerInteractor.swift in Sources */,
+				515979E11E979CAD00EEB796 /* ScannerViewController.swift in Sources */,
 				5159797A1E960CF700EEB796 /* AppDelegate.swift in Sources */,
 				5159799F1E96123800EEB796 /* LoginRouter.swift in Sources */,
+				515979E31E979CC500EEB796 /* ScannerPresenter.swift in Sources */,
+				515979C41E976C7B00EEB796 /* HomeInteractor.swift in Sources */,
 				515979AA1E96268600EEB796 /* LoginView.swift in Sources */,
 				515979A81E961CD000EEB796 /* StoryBoardIdentifier.swift in Sources */,
+				515979CA1E976C9D00EEB796 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

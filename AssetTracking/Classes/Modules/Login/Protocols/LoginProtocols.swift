@@ -11,10 +11,12 @@ import UIKit
 //MARK: Wireframe -
 protocol LoginWireframeProtocol: class {
     static func createLoginModule() -> UIViewController
+    func showHomeScreen(viewController: LoginViewProtocol)
 }
 //MARK: Presenter -
 protocol LoginPresenterProtocol: class {
     func loginValidation(userName: String, password: String) throws -> LoginError
+    func showHomeScreen()
 }
 
 //MARK: Interactor -

@@ -9,5 +9,5 @@
 import Foundation
 
 enum StoryBoardIdentifier: String {
-    case LoginViewController
+    case LoginViewController, HomeViewController
 }

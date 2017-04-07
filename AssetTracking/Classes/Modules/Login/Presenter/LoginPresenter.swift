@@ -24,4 +24,8 @@ class LoginPresenter: LoginPresenterProtocol {
        let result = try interactor.loginValidation(userName: userName, password: password)
        return result
     }
+    
+    func showHomeScreen() {
+        router.showHomeScreen(viewController: view!)
+    }
 }
